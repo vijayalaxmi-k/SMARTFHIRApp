@@ -1,5 +1,4 @@
-/******/
- (function(modules) { // webpackBootstrap
+/******/ (function(modules) { // webpackBootstrap
 /******/  // The module cache
 /******/  var installedModules = {};
 /******/
@@ -151,4 +150,3 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=fhir-client-cerner-additions-1.0.0.min.js.map
-;

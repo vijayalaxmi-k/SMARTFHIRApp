@@ -566,8 +566,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var OPERATORS = {
 	        $gt: 'gt',
 	        $lt: 'lt',
-	        $le: 'le',
-	        $ge: 'ge'
+	        $lte: 'lte',
+	        $gte: 'gte'
 	    };
 
 	    var MODIFIERS = {
@@ -15232,11 +15232,6 @@ jQuery.extend({
 
 			// Determine if successful
 			isSuccess = status >= 200 && status < 300 || status === 304;
-
-      // Add fake response text if the server doesn't return any
-      if ( responses.text === "" ) {
-      	responses.text = "{}"
-      }
 
 			// Get response data
 			if ( responses ) {
